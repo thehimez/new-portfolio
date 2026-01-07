@@ -25,6 +25,26 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
+      logo: "M",
+      title: "Misinformation Checker",
+      year: "2025",
+      description:
+        "A Python-based web application hosted on Streamlit that analyzes news articles and online content to identify potential misinformation. It leverages the OpenAI API for contextual understanding and fact analysis, along with the News API to fetch real-time news data. The tool helps users quickly assess the credibility of information by providing AI-driven insights and summaries.",
+      link: "https://misgo-ai.streamlit.app",
+      video: "/videos/project1.mp4",
+    },
+    {
+      id: 2,
+      logo: "F",
+      title: "Fake Photo Detector",
+      year: "2025",
+      description:
+        "An AI-powered image analysis tool that allows users to upload photos and determine whether they are AI-generated or real. Built using the OpenAI API, the application provides an intuitive interface and returns a confidence percentage indicating the likelihood of AI generation. Designed to make image authenticity checks fast, simple, and accessible for everyday users..",
+      link: "https://imagechecker20.streamlit.app",
+      video: "/videos/project1.mp4",
+    },
+    {
+      id: 3,
       logo: "T",
       title: "Todo App",
       year: "2025",
@@ -34,7 +54,7 @@ export default function Portfolio() {
       video: "/videos/project1.mp4",
     },
     {
-      id: 2,
+      id: 4,
       logo: "N",  
       title: "Notes App",
       year: "2025",
@@ -42,7 +62,7 @@ export default function Portfolio() {
         "A notes-making app with smooth UI/UX and persistent cloud storage.",
       link: "https://note.himeshbhowmik.xyz",
       video: "/videos/project2.mp4",
-    },
+    },  
   ];
 
   // ⭐ Work Experience — from CV
